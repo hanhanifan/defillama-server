@@ -266,6 +266,7 @@ export const chainToCoingeckoId = {
   blockdag: 'blockdag',
   proptech: 'proptech',
   tempo: 'tempo'
+  abstrack: 'abstrack'
 };
 
 export const cgPlatformtoChainId: { [key: string]: string } = Object.entries(chainToCoingeckoId).reduce(
